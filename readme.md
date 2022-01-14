@@ -9,6 +9,9 @@ Desenvolvida em Vue.js 3 com bootstrap 5.
 ## Como configurar o ambiente.
 
 ```
+#Pre-requisitos:
+node >= v12 && npm >= 6
+
 #Instalando as dependencias:
 npm install
 
