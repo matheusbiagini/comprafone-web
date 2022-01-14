@@ -14,7 +14,7 @@ Desenvolvida com Vue.js 3 com bootstrap 5.
 node >= v12 && npm >= 6
 
 #Variáveis de ambiente:
-Copie ** .env.example ** para ** .env ** e coloca as informações correspondentes. (Não há necessidade de alterar por padrão).
+Copie .env.example para .env. Mude as informações se necessário. (Sem necessidade de mudança por padrão).
 
 #Instalando as dependencias:
 npm install
