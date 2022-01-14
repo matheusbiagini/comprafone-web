@@ -13,6 +13,9 @@ Desenvolvida com Vue.js 3 com bootstrap 5.
 #Pre-requisitos:
 node >= v12 && npm >= 6
 
+#Variáveis de ambiente:
+Copie ** .env.example ** para ** .env ** e coloca as informações correspondentes. (Não há necessidade de alterar por padrão).
+
 #Instalando as dependencias:
 npm install
 
