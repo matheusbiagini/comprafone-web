@@ -1,19 +1,14 @@
-import 'mdb-vue-ui-kit/css/mdb.min.css'
-
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import BootstrapVue3 from 'bootstrap-vue-3'
 
-import Vue from 'vue'
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-
-// Import Bootstrap an BootstrapVue CSS files (order is important)
+import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import 'bootstrap-vue-3/dist/bootstrap-vue-3.css'
 
-// Make BootstrapVue available throughout your project
-Vue.use(BootstrapVue)
-// Optionally install the BootstrapVue icon components plugin
-Vue.use(IconsPlugin)
+const app = createApp(App)
 
-createApp(App).use(router).mount('#app')
+app.use(router)
+app.use(BootstrapVue3)
+app.mount('#app')
