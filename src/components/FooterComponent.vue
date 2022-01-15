@@ -34,10 +34,10 @@
             </div>
 
             <div class="col-lg-4 col-md-6 footer-newsletter">
-                <h4>Newsletter</h4>
+                <h4>Nossa Newsletter</h4>
                 <p>Fique sabendo das novidades do compra fone.</p>
                 <form action="" method="post">
-                <input type="email" name="email"><input type="submit" value="Subscribe">
+                <input type="email" name="email" value="Seu e-mail"><input type="submit" value="Inscrever">
                 </form>
             </div>
 
